@@ -113,7 +113,7 @@ bool Admin::validPassword(string username, string password) //checks whether the
 }
 
 
-int Admin::passwordStrength(string password) //returns a integer that represents the strength of the password from scale 1-10
+int Admin::passwordStrength(string password) //returns a integer that represents the strength of the password
 {
     int len_score = 0;
     int digit_score = 0;
